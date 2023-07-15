@@ -120,7 +120,7 @@ def time_stats(df):
 
     # TO DO: display the most common start hour
     popular_start_hour = df['start_hour'].mode()[0]
-    print('Most common common start hour for travel is: '+str(popular_start_hour))
+    print('Most common start hour for travel is: '+str(popular_start_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
