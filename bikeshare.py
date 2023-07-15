@@ -82,13 +82,18 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
 
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(CITY_DATA[city]) #reading csv data
+
+    #changing datatype of Start Time and End Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['End Time'] = pd.to_datetime(df['End Time'])
+
+    #extracting month, day of week and hour information from start time column
     df['month'] =  df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.day_name()
-
     df['start_hour'] = df['Start Time'].dt.hour
+
+    #creating total_trip_duration column from end time and start time column
     df['total_trip_duration'] = df['End Time'] - df['Start Time']
 
     if day!='all':
