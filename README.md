@@ -1,17 +1,15 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
+# Bertlesmann Final Project
 ### Date created
-Include the date you created this project and README file.
+13-July-2023
 
 ### Project Title
-Replace the Project Title
+**Bikeshare Data Analysis**
 
 ### Description
-Describe what your project is about and what it does
+This project uses 3 cities data set i.e. Chicago, New York and Washington, and tries to answer some of the questions after filtering the dataset of city on the basis of month and day of the week.
 
-### Files used
-Include the files used
+### Script Brief
+User inputs are taken in numericals and are mapped to appropriate cities, months and day of weeks.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+All the credits for this project goes to Udacity, Bertlesmann and the Tutors of this program for their continuos support and awesome learning journey.
