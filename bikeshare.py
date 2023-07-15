@@ -210,6 +210,8 @@ def main():
         total_rows = len(df)
         iterate = 5
         i=0
+
+        #prompting user to print raw dataset
         prompt=input("Do you want to view the first 5 rows of raw data, yes or no?\n")
         if total_rows>0:
           while i<=total_rows and prompt =='yes' :
@@ -227,6 +229,7 @@ def main():
         else:
           print('Filter dataframe is empty.')
 
+        #prompting user to restart 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
