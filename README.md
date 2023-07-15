@@ -19,5 +19,8 @@ User inputs are taken in numericals and are mapped to appropriate cities, months
 #### Questions answered by Program
 The script provides statistics on the most frequent times of travel, statistics on the most popular stations and trip, statistics on the total and average trip duration and statistics on bikeshare users.
 
+### Programming Language Used
+- Python
+
 ### Credits
 All the credits for this project goes to Udacity, Bertlesmann and the Tutors of this program for their continuos support and awesome learning journey.
