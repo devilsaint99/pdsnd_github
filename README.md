@@ -22,5 +22,9 @@ The script provides statistics on the most frequent times of travel, statistics 
 ### Programming Language Used
 - Python
 
+### Libraries Used
+- Pandas
+- Numpy
+
 ### Credits
 All the credits for this project goes to Udacity, Bertlesmann and the Tutors of this program for their continuos support and awesome learning journey.
