@@ -2,11 +2,15 @@
 ### Date created
 13-July-2023
 
+### Updated on
+17-08-2024
+
 ### Project Title
 **Bikeshare Data Analysis**
 
 ### Description
 This project uses 3 cities data set i.e. Chicago, New York and Washington, and tries to answer some of the questions after filtering the dataset of city on the basis of month and day of the week.
+Added a web app support too
 
 ### Script Brief
 User inputs are taken in numericals and are mapped to appropriate cities, months and day of weeks.
