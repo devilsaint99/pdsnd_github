@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Bertlesmann Project Web App Version
+        </title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="container mx-auto mt-8 bg-white rounded-lg shadow-lg p-6 max-w-md w-full">
+            <div class="text-lg font-semibold text-gray-800 mb-4">Statistics related to Travel time and station of the DataFrame</div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Most common month of travel is:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ time_stats[0] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Most common day of week for travel is:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ time_stats[1] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Most common start hour for travel is:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ time_stats[2] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Most common start station is:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ station_stats[0] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600"> Most common end station is:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ station_stats[1] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Most frequent combination of start and end station is:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ station_stats[2] }}</div>
+            </div>
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Bertlesmann Project Web App Version
+        </title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="container mx-auto mt-8 bg-white rounded-lg shadow-lg p-6 max-w-md w-full">
+            <div class="text-lg font-semibold text-gray-800 mb-4">User Data Statistics of the DataFrame</div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Subscriber Count:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ user_stats[0] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Customer Count:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ user_stats[1] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Total Males:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ user_stats[2] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Total Females:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ user_stats[3] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Birth Year of Eldest User:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ user_stats[4] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg mb-3">
+                <div class="text-gray-600">Birth Year of Youngest User:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ user_stats[5] }}</div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+                <div class="text-gray-600">Most Common Birth Year:</div>
+                <div class="text-blue-600 font-bold text-xl">{{ user_stats[6] }}</div>
+            </div>
+        </div> 
+    </body>
+</html>
